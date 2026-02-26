@@ -1,0 +1,25 @@
+# Environment files
+.env
+.env.dev
+.env.prod
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Django
+*.log
+db.sqlite3
+
+# Celery
+celerybeat-schedule
+celerybeat-schedule.db
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
